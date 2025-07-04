@@ -25,12 +25,13 @@ body {
 
 }
 
-/* .container {
-        padding-left: 15px;
-        padding-right: 15px;
-        margin-left: auto;
-        margin-right: auto;
-    } */
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* Small */
 @media (min-width: 768px) {
     .container {
@@ -53,3 +54,6 @@ body {
 }
 
 /* End Global Rules */
+/* start header */
+
+/* end header */
