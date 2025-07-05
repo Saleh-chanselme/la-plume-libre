@@ -63,10 +63,23 @@ body {
     background-size: cover;
     height: calc(100vh - 64px);
     position: relative;
+    background-image: url(../images/background-contact.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay-box {
+    background-color: rgb(121 85 72 / 59%);
+    padding: 20px 30px;
+    border-radius: 12px;
+    display: inline-block;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    /* backdrop-filter: blur(4px); */
 }
 
 .landing h1 {
     color: var(--main-color);
+    text-shadow: -3px 3px 2px black;
 }
 
 .landing .intro {
@@ -76,9 +89,12 @@ body {
     text-align: center;
     transform: translate(-50%, -50%);
     /* max-width: 100%; */
-    color: var(--secondary-color);
+    color: var(--section-background);
     font-size: 18px;
+    text-shadow: 1px 4px 3px black;
 }
+
+
 
 /* end page about  */
 
