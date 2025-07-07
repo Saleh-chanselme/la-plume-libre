@@ -110,6 +110,20 @@ form {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+/* night moood  */
+.dark-mode {
+    background-color: #111;
+    color: white;
+}
+
+button#toggle-theme {
+    position: absolute;
+    top: 62px;
+    left: 150px;
+}
+
+/*  end night moood  */
+
 /* Title */
 h1 {
     padding-top: 30px;
