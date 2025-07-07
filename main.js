@@ -1,7 +1,7 @@
 /* dark mood  */
-document.getElementById("toggle-theme").addEventListener("click", () => {
+/* document.getElementById("toggle-theme").addEventListener("click", () => {
     document.body.classList.toggle("dark-mode");
-});
+}); */
 /* end dark mood  */
 document.addEventListener("DOMContentLoaded", () => {
     const form = document.querySelector("form");

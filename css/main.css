@@ -461,7 +461,7 @@ footer .footer-menu {
 /* Center the form container */
 form {
     max-width: 75%;
-    margin: auto;
+    margin: auto auto 20%;
     padding: 5%;
     background-color: #f3f3f357;
     border-radius: 90px;
@@ -469,7 +469,7 @@ form {
 }
 
 /* night moood  */
-.dark-mode {
+/* .dark-mode {
     background-color: #111;
     color: white;
 }
@@ -479,7 +479,7 @@ button#toggle-theme {
     top: 48px;
     left: 37%;
 }
-
+ */
 @media (max-width: 768px) {
     button#toggle-theme {
         position: absolute;
