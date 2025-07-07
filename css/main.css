@@ -309,6 +309,23 @@ footer .footer-menu {
     width: 100%;
 }
 
+.social-icons-main {
+    margin-top: 10px;
+}
+
+.social-icons-main a {
+    margin: 0 10px;
+    color: var(--main-color);
+    font-size: 1.5rem;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-icons-main a:hover {
+    color: var(--dystopian-color);
+    /* Or any highlight color you use */
+}
+
 .hamburger-line {
     display: block;
     background-color: var(--secondary-color);
@@ -466,8 +483,8 @@ button#toggle-theme {
 @media (max-width: 768px) {
     button#toggle-theme {
         position: absolute;
-        top: 47px;
-        left: 19px;
+        top: 74px;
+        left: 23px;
         width: 50px;
         height: 50px;
     }
@@ -544,7 +561,7 @@ form button[type='submit']:hover {
 }
 
 .social-icons a {
-    color: var(--secondary-color);
+    color: #00BCD4;
     font-size: 20px;
     transition: color 0.3s ease;
 }

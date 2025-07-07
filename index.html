@@ -1,156 +1,171 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta
-            name="La Plume Libre ! Nous avons tous les types de livres possibles et imaginables "
-            content="Venez dans notre magasin, nous avons des réductions et des offres intéressantes."
-        />
-        <!-- main css  -->
-        <link rel="stylesheet" href="css/main.css" />
-        <!-- render all elements normally -->
-        <!-- <link rel="stylesheet" href="css/normalize.css"> -->
-        <!-- font awesome library -->
-        <link rel="stylesheet" href="css/all.min.css" />
-        <!-- google font  -->
-        <link rel="stylesheet" preconnect href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
-            rel="stylesheet"
-        />
-        <title>La Plume Libre</title>
-    </head>
 
-    <body>
-        <nav class="container">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="La Plume Libre ! Nous avons tous les types de livres possibles et imaginables "
+        content="Venez dans notre magasin, nous avons des réductions et des offres intéressantes." />
+    <!-- main css  -->
+    <link rel="stylesheet" href="css/main.css" />
+    <!-- render all elements normally -->
+    <!-- <link rel="stylesheet" href="css/normalize.css"> -->
+    <!-- font awesome library -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- google font  -->
+    <link rel="stylesheet" preconnect href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet" />
+    <title>La Plume Libre</title>
+</head>
+
+<body>
+    <nav class="container">
+        <a href="index.html">
+            <h1 class="logo">
+                La Plume Libre<span class="main-color">.</span>
+            </h1>
+        </a>
+        <ul class="menu-links">
             <a href="index.html">
-                <h1 class="logo">
-                    La Plume Libre<span class="main-color">.</span>
-                </h1>
+                <li class="active">Accueil</li>
             </a>
-            <ul class="menu-links">
-                <a href="index.html"><li class="active">Accueil</li></a>
-                <a href="about.html"><li>À propos</li></a>
-                <a href="contact.html"><li>Contact</li></a>
-            </ul>
-            <div class="hamburger">
-                <span class="hamburger-line"></span>
-                <span class="hamburger-line"></span>
-                <span class="hamburger-line"></span>
+            <a href="about.html">
+                <li>À propos</li>
+            </a>
+            <a href="contact.html">
+                <li>Contact</li>
+            </a>
+        </ul>
+        <div class="hamburger">
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+        </div>
+    </nav>
+    <section class="hero container">
+        <div class="heading">
+            <h1 class="main-title">
+                Trouvez des livres
+                <span class="handwritten main-color">inspirants</span><br />
+                pour vous
+            </h1>
+            <p>
+                Chez La Plume Libre, chaque ouvrage est une invitation au
+                voyage et à la réflexion.
+            </p>
+            <button>Découvrir notre idée</button>
+        </div>
+        <div class="best-sellers">
+            <div>
+                <h1>Les best sellers<span class="main-color">.</span></h1>
             </div>
-        </nav>
-        <section class="hero container">
-            <div class="heading">
-                <h1 class="main-title">
-                    Trouvez des livres
-                    <span class="handwritten main-color">inspirants</span><br />
-                    pour vous
-                </h1>
-                <p>
-                    Chez La Plume Libre, chaque ouvrage est une invitation au
-                    voyage et à la réflexion.
-                </p>
-                <button>Découvrir notre idée</button>
-            </div>
-            <div class="best-sellers">
-                <div>
-                    <h1>Les best sellers<span class="main-color">.</span></h1>
+            <div class="book-box-wrapper">
+                <div class="book-box bg-fantasy">
+                    <div class="book-box-image">
+                        <img src="img/book1.jpg" alt="Couverture d'un livre" />
+                    </div>
+                    <div class="book-info">
+                        <div class="">
+                            <h1 class="title">Lorem</h1>
+                            <h2 class="author">par Auteur</h2>
+                            <h3 class="price">6.99 €</h3>
+                            <p class="description">
+                                Lorem ipsum dolor, sit amet consectetur
+                                adipisicing elit. Vel dignissimos
+                                praesentium debitis nihil perspiciatis sit
+                                aliquam.
+                            </p>
+                        </div>
+                        <button>Voir plus</button>
+                    </div>
                 </div>
-                <div class="book-box-wrapper">
-                    <div class="book-box bg-fantasy">
-                        <div class="book-box-image">
-                            <img
-                                src="img/book1.jpg"
-                                alt="Couverture d'un livre"
-                            />
-                        </div>
-                        <div class="book-info">
-                            <div class="">
-                                <h1 class="title">Lorem</h1>
-                                <h2 class="author">par Auteur</h2>
-                                <h3 class="price">6.99 €</h3>
-                                <p class="description">
-                                    Lorem ipsum dolor, sit amet consectetur
-                                    adipisicing elit. Vel dignissimos
-                                    praesentium debitis nihil perspiciatis sit
-                                    aliquam.
-                                </p>
-                            </div>
-                            <button>Voir plus</button>
-                        </div>
+                <div class="book-box bg-scifi">
+                    <div class="book-box-image">
+                        <img src="img/book2.jpg" alt="Couverture d'un livre" />
                     </div>
-                    <div class="book-box bg-scifi">
-                        <div class="book-box-image">
-                            <img
-                                src="img/book2.jpg"
-                                alt="Couverture d'un livre"
-                            />
+                    <div class="book-info">
+                        <div>
+                            <h1 class="title">Ipsum</h1>
+                            <h2 class="author">par Auteur</h2>
+                            <h3 class="price">6.99 €</h3>
+                            <p class="description">
+                                Lorem ipsum dolor, sit amet consectetur
+                                adipisicing elit. Vel dignissimos
+                                praesentium debitis nihil perspiciatis sit
+                                aliquam.
+                            </p>
                         </div>
-                        <div class="book-info">
-                            <div>
-                                <h1 class="title">Ipsum</h1>
-                                <h2 class="author">par Auteur</h2>
-                                <h3 class="price">6.99 €</h3>
-                                <p class="description">
-                                    Lorem ipsum dolor, sit amet consectetur
-                                    adipisicing elit. Vel dignissimos
-                                    praesentium debitis nihil perspiciatis sit
-                                    aliquam.
-                                </p>
-                            </div>
-                            <button>Voir plus</button>
-                        </div>
+                        <button>Voir plus</button>
                     </div>
-                    <div class="book-box bg-dystopian">
-                        <div class="book-box-image">
-                            <img
-                                src="img/book3.jpg"
-                                alt="Couverture d'un livre"
-                            />
+                </div>
+                <div class="book-box bg-dystopian">
+                    <div class="book-box-image">
+                        <img src="img/book3.jpg" alt="Couverture d'un livre" />
+                    </div>
+                    <div class="book-info">
+                        <div>
+                            <h1 class="title">Dolor</h1>
+                            <h2 class="author">par Auteur</h2>
+                            <h3 class="price">6.99 €</h3>
+                            <p class="description">
+                                Lorem ipsum dolor, sit amet consectetur
+                                adipisicing elit. Vel dignissimos
+                                praesentium debitis nihil perspiciatis sit
+                                aliquam.
+                            </p>
                         </div>
-                        <div class="book-info">
-                            <div>
-                                <h1 class="title">Dolor</h1>
-                                <h2 class="author">par Auteur</h2>
-                                <h3 class="price">6.99 €</h3>
-                                <p class="description">
-                                    Lorem ipsum dolor, sit amet consectetur
-                                    adipisicing elit. Vel dignissimos
-                                    praesentium debitis nihil perspiciatis sit
-                                    aliquam.
-                                </p>
-                            </div>
-                            <button>Voir plus</button>
-                        </div>
+                        <button>Voir plus</button>
                     </div>
                 </div>
             </div>
         </div>
-    </nav>
-    <!-- end header -->
-    
+        </div>
+        </nav>
+        <!-- end header -->
+
 </body>
 
-        </section>
-        <footer>
-            <div class="credits container">
-                <h1 class="logo-light">
-                    La Plume Libre<span class="main-color">.</span>
-                </h1>
-                <p>La Plume Libre par Saleh et Matthis</p>
+</section>
+<footer>
+    <footer>
+        <div class="credits container">
+            <h1 class="logo-light">
+                La Plume Libre<span class="main-color">.</span>
+            </h1>
+            <p>La Plume Libre par Saleh et Matthis</p>
+        </div>
+
+        <div class="footer-menu container">
+            <ul>
+                <a href="index.html">
+                    <li>Accueil</li>
+                </a>
+                <a href="about.html">
+                    <li>À propos</li>
+                </a>
+                <a href="contact.html">
+                    <li>Contact</li>
+                </a>
+            </ul>
+            <p>Trouvez-nous sur</p>
+            <div class="social-icons-main">
+                <a href="https://www.facebook.com" target="_blank" aria-label="Facebook">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://www.twitter.com" target="_blank" aria-label="Twitter">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://www.youtube.com" target="_blank" aria-label="YouTube">
+                    <i class="fab fa-youtube"></i>
+                </a>
             </div>
-            <div class="footer-menu container">
-                <ul>
-                    <a href="index.html"><li>Accueil</li></a>
-                    <a href="about.html"><li>À propos</li></a>
-                    <a href="contact.html"><li>Contact</li></a>
-                </ul>
-                <p>Trouvez-nous sur</p>
-            </div>
-        </footer>
-        <!-- js link -->
+        </div>
+    </footer>
+    <!-- js link -->
     <link rel="stylesheet" href="main.js">
     </body>
+
 </html>
