@@ -25,11 +25,10 @@ document.addEventListener("DOMContentLoaded", () => {
             messageBox.style.color = "#006600";
             messageBox.style.fontWeight = "bold";
             messageBox.style.borderRadius = "8px";
+            messageBox.textContent = `Hello ${fullName}, we received your message and we will treat your demande within 24h.`;
             form.appendChild(messageBox);
         }
 
-        // Set the message content
-        messageBox.textContent = `Hello ${fullName}, we received your message and we will treat your demande within 24h.`;
 
         // Optional: Clear form after submit
         form.reset();
