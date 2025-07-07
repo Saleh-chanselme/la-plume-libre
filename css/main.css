@@ -77,9 +77,24 @@ body {
     /* backdrop-filter: blur(4px); */
 }
 
+@media (max-width: 768px) {
+    .overlay-box {
+        padding: 0px 30px;
+        max-width: 100%;
+        min-height: 100%;
+
+    }
+}
+
 .landing h1 {
     color: var(--main-color);
     text-shadow: -3px 3px 2px black;
+}
+
+@media (max-width: 768px) {
+    .landing h1 {
+        font-size: 14px;
+    }
 }
 
 .landing .intro {
@@ -92,6 +107,12 @@ body {
     color: var(--section-background);
     font-size: 18px;
     text-shadow: 1px 4px 3px black;
+}
+
+@media (max-width: 768px) {
+    .landing p {
+        font-size: 14px;
+    }
 }
 
 
@@ -122,6 +143,14 @@ button#toggle-theme {
     left: 150px;
 }
 
+@media (max-width: 768px) {
+    button#toggle-theme {
+        position: absolute;
+        top: 30px;
+        left: 55px;
+    }
+}
+
 /*  end night moood  */
 
 /* Title */
@@ -137,6 +166,8 @@ h1 .main-color {
     color: var(--main-color);
     font-size: 40px;
 }
+
+
 
 /* Labels */
 form label {
