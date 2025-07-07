@@ -102,17 +102,17 @@ body {
 /* start contact */
 /* Center the form container */
 form {
-    max-width: 500px;
-    max-width: 50%;
+    max-width: 75%;
     margin: auto;
-    padding: 30px;
-    background-color: #00bcd417;
-    border-radius: 8px;
+    padding: 5%;
+    background-color: #f3f3f357;
+    border-radius: 90px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 /* Title */
 h1 {
+    padding-top: 30px;
     text-align: center;
     margin-bottom: 30px;
     font-size: 28px;
@@ -157,7 +157,7 @@ form textarea:focus {
 form button[type="submit"] {
     margin-top: 25px;
     width: 100%;
-    background-color: var(--main-color);
+    background-color: var(--secondary-color);
     color: var(--section-background);
     border: none;
     padding: 12px;
