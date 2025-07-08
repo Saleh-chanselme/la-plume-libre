@@ -1,3 +1,15 @@
+const mobileMenu = document.querySelector('.mobile-menu');
+const hamburger = document.querySelector('.hamburger');
+const closeBtn = document.querySelector('.close-btn');
+
+const handleMobileMenu = () => {
+    mobileMenu.classList.toggle('visible');
+};
+
+hamburger.addEventListener('click', handleMobileMenu);
+
+closeBtn.addEventListener('click', handleMobileMenu);
+
 const form = document.querySelector('form');
 
 form.addEventListener('submit', function (event) {
@@ -23,6 +35,5 @@ form.addEventListener('submit', function (event) {
         form.appendChild(messageBox);
     }
 
-    // Optional: Clear form after submit
     form.reset();
 });
